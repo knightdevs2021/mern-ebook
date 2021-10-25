@@ -1,76 +1,54 @@
 const products = [
   {
-    name: 'Airpods Wireless Bluetooth Headphones',
-    image: '/images/airpods.jpg',
+    name: 'Campfire Cooking in Another World with My Absurd Skill Vol.1',
+    image: '/images/campfire_vol1_cover.jpg',
+    book: '/books/campfire_vol1.pdf',
+    author: 'Ren Eguchi',
+    category: 'Action, Fantasy, Slice of life, Isekai',
+    description:
+      `Mukouda Tsuyoshi was nothing special in modern Japan, so when he was summoned to a world of swordplay and sorcery, he thought he was ready for the adventure of a lifetime. Too bad the kingdom that summoned him only got him by mistake! Not only was he not one of the three summoned heroes, but his stats were laughable compared to theirs. On top of that, there’s something really sketchy about this kingdom… “Ah, these people are the kind to try and use the Hero,” he realized, and immediately left to make his own way in this other world.
+
+      The only thing Mukouda can rely on is his unique skill: the “Online Supermarket,” a skill that allows him to buy modern goods in a fantasy world. It’s useless for combat, but if he plays his cards right, he could lead a comfortable life, maybe? At least, that’s what Mukouda thinks, but it turns out modern food bought with this skill has some absurd effects! What happens when Mukouda introduces ridiculously tasty modern cooking to a fantasy world like this? He gets some ridiculous repeat customers begging for more…!`,
+    price: 9.99,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'Solo Leveling Vol.1',
+    image: '/images/sl1.jpg',
+    book: '/books/campfire_vol1.pdf',
+    author: 'Chugong',
+    category: 'Action, Fantasy',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
-    brand: 'Apple',
-    category: 'Electronics',
-    price: 89.99,
-    countInStock: 3,
+    price: 9.99,
     rating: 0,
     numReviews: 0,
   },
   {
-    name: 'iPhone 11 Pro 256GB Memory',
-    image: '/images/phone.jpg',
+    name: 'Solo Leveling Vol.2',
+    image: '/images/sl2.jpg',
+    book: '/books/campfire_vol1.pdf',
+    author: 'Chugong',
+    category: 'Action, Fantasy',
     description:
-      'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
-    brand: 'Apple',
-    category: 'Electronics',
-    price: 599.99,
-    countInStock: 10,
+      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    price: 9.99,
     rating: 0,
     numReviews: 0,
   },
   {
-    name: 'Cannon EOS 80D DSLR Camera',
-    image: '/images/camera.jpg',
+    name: 'Solo Leveling Vol.3',
+    image: '/images/sl3.jpg',
+    book: '/books/campfire_vol1.pdf',
+    author: 'Chugong',
+    category: 'Action, Fantasy',
     description:
-      'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
-    brand: 'Cannon',
-    category: 'Electronics',
-    price: 929.99,
-    countInStock: 0,
+      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    price: 9.99,
     rating: 0,
     numReviews: 0,
-  },
-  {
-    name: 'Sony Playstation 4 Pro White Version',
-    image: '/images/playstation.jpg',
-    description:
-      'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
-    brand: 'Sony',
-    category: 'Electronics',
-    price: 399.99,
-    countInStock: 10,
-    rating: 0,
-    numReviews: 0,
-  },
-  {
-    name: 'Logitech G-Series Gaming Mouse',
-    image: '/images/mouse.jpg',
-    description:
-      'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
-    brand: 'Logitech',
-    category: 'Electronics',
-    price: 49.99,
-    countInStock: 7,
-    rating: 0,
-    numReviews: 0,
-  },
-  {
-    name: 'Amazon Echo Dot 3rd Generation',
-    image: '/images/alexa.jpg',
-    description:
-      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
-    brand: 'Amazon',
-    category: 'Electronics',
-    price: 29.99,
-    countInStock: 0,
-    rating: 0,
-    numReviews: 0,
-  },
-]
+  }
+];
 
-export default products
+export default products;

@@ -48,7 +48,8 @@ export const orderCreateReducer = (state = {}, action) => {
 }
 
 export const orderDetailsReducer = (
-  state = { loading: true, orderItems: [], shippingAddress: {} },
+  // original order state --> { loading: true, orderItems: [], shippingAddress: {} }
+  state = { loading: true, orderItems: [] },
   action
 ) => {
   switch (action.type) {

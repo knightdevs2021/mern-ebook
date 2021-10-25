@@ -31,9 +31,12 @@ const productSchema = mongoose.Schema(
       type: String,
       required: true,
     },
-    brand: {
+    book: {
       type: String,
       required: true,
+    },
+    author: {
+      type: String,
     },
     category: {
       type: String,
@@ -58,12 +61,7 @@ const productSchema = mongoose.Schema(
       type: Number,
       required: true,
       default: 0,
-    },
-    countInStock: {
-      type: Number,
-      required: true,
-      default: 0,
-    },
+    }
   },
   {
     timestamps: true,

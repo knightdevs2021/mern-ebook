@@ -38,4 +38,14 @@ router.post('/', upload.single('image'), (req, res) => {
   res.send(`/${req.file.path}`)
 })
 
+router.post('/cover', upload.single('image'), (req, res) => {
+  res.send(`/${req.file.path}`)
+})
+
+router.post('/book', (req, res) => {
+  console.log('You sucessfully made here');
+
+  throw new Error('testing data....check console in server')
+})
+
 export default router
